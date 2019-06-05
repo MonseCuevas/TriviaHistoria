@@ -6,7 +6,15 @@ function guardaNombre() {
   }
 
 window.onload = function(){
-  document.getElementById("btnNombre").   addEventListener("click",function(){
+  document.getElementById("btnNombre").addEventListener("click",function(){
     guardaNombre();
+  });
+  document.getElementById("btnHistoriaU").addEventListener("click",function(){
+    
+  });
+  document.getElementById("btnHistoriaA").addEventListener("click",function(){
+    seleccion.style.display = "block";
+    document.getElementById("titulo2").innerHTML = "Muy bien" ; 
+
   });
 };
