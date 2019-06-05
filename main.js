@@ -13,8 +13,10 @@ window.onload = function(){
     
   });
   document.getElementById("btnHistoriaA").addEventListener("click",function(){
+    console.log('btnHistoriaA');
+    const seleccion = document.getElementById("seleccion");
     seleccion.style.display = "block";
-    document.getElementById("titulo2").innerHTML = "Muy bien" ; 
+     document.getElementById("titulo2").innerHTML = "MUY BIEN";
 
   });
 };
